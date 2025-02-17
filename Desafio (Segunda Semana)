@@ -1,4 +1,4 @@
-#Capitalize the first letter of each word while preserving numbers and spaces. (EASY)
+# Capitalize the first letter of each word while preserving numbers and spaces. (EASY)
 import math
 import os
 import random
@@ -20,10 +20,10 @@ if __name__ == '__main__':
 
     fptr.close()
 
-#The task is to calculate the total happiness based on whether elements from an array are in 
-    - set A (increase happiness) 
-    - set B (decrease happiness)
-#with initial happiness starting at 0.
+# The task is to calculate the total happiness (starting at 0) based on whether elements from an array are in 
+# - set A (increase happiness +1)
+# - set B (decrease happiness -1)
+# If the element is in neither set, the happiness remains unchanged.(INTERMEDIATE)
 
 array = []
 a = set()  
