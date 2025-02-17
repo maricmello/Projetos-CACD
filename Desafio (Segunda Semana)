@@ -20,10 +20,10 @@ if __name__ == '__main__':
 
     fptr.close()
 
-# The task is to calculate the total happiness (starting at 0) based on whether elements from an array are in 
+# (INTERMEDIATE) The task is to calculate the total happiness (starting at 0) based on whether elements from an array are in 
 # - set A (increase happiness +1)
 # - set B (decrease happiness -1)
-# (INTERMEDIATE) If the element is in neither set, the happiness remains unchanged.
+#  If the element is in neither set, the happiness remains unchanged.
 
 array = []
 a = set()  
