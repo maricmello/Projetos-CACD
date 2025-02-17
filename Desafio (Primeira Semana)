@@ -1,4 +1,5 @@
-#Read a first name and last name from input, then print "Hello firstname lastname! You just delved into python." with the given names inserted. (EASY)
+# (EASY) Read a first name and last name from input, then print "Hello firstname lastname! 
+# You just delved into python." with the given names inserted. 
 
 def print_full_name(first, last):
     print(f"Hello {first} {last}! You just delved into python.")
@@ -8,8 +9,8 @@ if __name__ == '__main__':
     last_name = input()
     print_full_name(first_name, last_name)
 
-#Read a list of words, counting how many times each word appears while maintaining the order of their first appearance. 
-#First, print the number of distinct words. Then, print the occurrence count of each word in order of appearance. (INTERMEDIATE)
+# (INTERMEDIATE) Read a list of words, counting how many times each word appears while maintaining the order of their first appearance. 
+# First, print the number of distinct words. Then, print the occurrence count of each word in order of appearance. 
 
 def word_occurrences():
     n = int(input())  
