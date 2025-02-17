@@ -1,4 +1,4 @@
-#Capitalize the first letter of each word while preserving numbers and spaces.
+#Capitalize the first letter of each word while preserving numbers and spaces. (EASY)
 import math
 import os
 import random
